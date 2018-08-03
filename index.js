@@ -7,4 +7,9 @@ function upperCaseCustomerName(){
 function setBestCustomer(){
   bestCustomer = "not bob";
 };
-
+function overwriteBestCustomer(newFavorite){
+  bestCustomer = newFavorite;
+}
+function changeLeastFavoriteCustomer(){
+  leastFavoriteCustomer = "me";
+}
