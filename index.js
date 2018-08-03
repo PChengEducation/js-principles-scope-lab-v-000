@@ -3,8 +3,10 @@ var customerName = "bob";
 function upperCaseCustomerName(){
   customerName = customerName.toUpperCase();
   return customerName;
-}
+};
 function setBestCustomer(){
   var bestCustomer = "not bob";
+  if (customerName !== bestCustomer){
   return bestCustomer;
-}
+};
+};
