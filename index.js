@@ -5,7 +5,6 @@ function upperCaseCustomerName(customerNmae){
   return customerName;
 }
 function setBestCustomer(bestCustomer){
-  var newWord = "not bob";
-  bestCustomer = newWord;
+  var bestCustomer = "not bob";
   return bestCustomer;
 }
